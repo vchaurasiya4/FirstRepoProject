@@ -44,7 +44,7 @@ namespace MongoDBWithMVC.Controllers
             nfi = (NumberFormatInfo)nfi.Clone();
 
             string s1 = string.Format(nfi, "{0:C}", Double.Parse(s));
-
+string america="America";
             return View();
         }
 

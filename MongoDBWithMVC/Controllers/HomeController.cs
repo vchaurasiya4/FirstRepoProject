@@ -50,6 +50,7 @@ namespace MongoDBWithMVC.Controllers
 
         public ActionResult Test()
         {
+            string synSoft = "Hello Synsoft";
             return View();
         }
     }
